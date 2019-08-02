@@ -52,9 +52,9 @@ while True:
             if flag >= frame_check:
                 cv2.drawContours(frame, [leftEyeHull], -1, (0, 0, 255), 1)
                 cv2.drawContours(frame, [rightEyeHull], -1, (0, 0, 255), 1)
-                cv2.putText(frame, "****************ALERT!****************", (10, 30),
+                cv2.putText(frame, "****************ALERT!****************", (50, 30),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-                cv2.putText(frame, "****************ALERT!****************", (10, 325),
+                cv2.putText(frame, "****************ALERT!****************", (50, 400),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
                 # os.system('spd-say "your program has finished"')
 
