@@ -30,7 +30,7 @@ Reference: https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/
 
 <img src="https://github.com/ashutosh1997/Drowsiness_Detection/blob/master/drowsiness_detection.gif">
 <video width="800" height="600" autoplay>
-  <source src="drowsiness_detection.mp4" type="video/mp4">
+  <source src="https://github.com/ashutosh1997/Drowsiness_Detection/blob/master/drowsiness_detection.mp4" type="video/mp4">
 </video>
 
 
