@@ -1,15 +1,11 @@
 ## Applications
-This code can be used by drivers who tend to drive for a longer period of time and by students who study late at nights for exam 😉.
-
-### Description
-
-A computer vision system that can automatically detect driver drowsiness in a real-time video stream and then play an alarm if the driver appears to be drowsy.
+This code can be used by drivers who tend to drive for a longer period of time and by students who study late at nights for exam 😉. This can automatically detect drowsiness in a realtime video stream and then play an alarm if the person appears to be drowsy.
 
 ### Algorithm
 
 Each eye is represented by 6 (x, y)-coordinates, starting at the left-corner of the eye (as if you were looking at the person), and then working clockwise around the eye:.
 
-<img src="https://github.com/ashutosh1997/Drowsiness_Detection/blob/master/eye1.jpg">
+<img src="https://github.com/ashutoshkumar19/Drowsiness_Detection/blob/master/eye1.jpg">
 
 ### Condition
 
@@ -17,18 +13,18 @@ It checks 20 consecutive frames and if the Eye Aspect ratio is lesst than 0.25, 
 
 #### Relationship
 
-<img src="https://github.com/ashutosh1997/Drowsiness_Detection/blob/master/eye2.png">
+<img src="https://github.com/ashutoshkumar19/Drowsiness_Detection/blob/master/eye2.png">
 
 #### Summing up
 
-<img src="https://github.com/ashutosh1997/Drowsiness_Detection/blob/master/eye3.jpg">
+<img src="https://github.com/ashutoshkumar19/Drowsiness_Detection/blob/master/eye3.jpg">
 
 Reference: https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/
 
 
 ### Working Example
 
-<img src="https://github.com/ashutosh1997/Drowsiness_Detection/blob/master/drowsiness_detection.gif">
+<img src="https://github.com/ashutoshkumar19/Drowsiness_Detection/blob/master/drowsiness_detection.gif">
 
 
 ### Execution
