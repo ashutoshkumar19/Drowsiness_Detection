@@ -1,17 +1,5 @@
 ## Applications
-This can be used by riders who tend to drive for a longer period of time that may lead to accidents
-
-
-### Code Requirements
-The example code is in Python ([version 2.7](https://www.python.org/download/releases/2.7/) or higher will work). 
-
-### Dependencies
-
-1) import cv2
-2) import imutils
-3) import dlib
-4) import scipy
-
+This code can be used by drivers who tend to drive for a longer period of time and by students who study late at nights for exam 😉.
 
 ### Description
 
@@ -35,17 +23,28 @@ It checks 20 consecutive frames and if the Eye Aspect ratio is lesst than 0.25, 
 
 <img src="https://github.com/ashutosh1997/Drowsiness_Detection/blob/master/eye3.jpg">
 
+Reference: https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/
 
-For more information, [see](https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/)
 
 ### Working Example
 
 <img src="https://github.com/ashutosh1997/Drowsiness_Detection/blob/master/drowsiness_detection.gif">
+<video width="800" height="600" autoplay>
+  <source src="drowsiness_detection.mp4" type="video/mp4">
+</video>
 
 
 
 ### Execution
-To run the code, type `python Drowsiness_Detection.py`
+* First install all the requiremnets from requirements.txt file:
+  dlib==19.17.0
+  imutils==0.5.2
+  numpy==1.17.0
+  opencv-python==4.1.0.25
+  pygame==1.9.6
+  scipy==1.3.0
+
+* Then, type:
 
 ```
 python Drowsiness_Detection.py
